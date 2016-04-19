@@ -17,6 +17,12 @@ namespace cis237inclass6.Controllers
         {
             ViewBag.Message = "Your application description page.";
 
+            //This is a dynamic object that can just have a property 
+            //attached to it with a value.  Here we made the 'key'
+            //Manamana, and the 'value' Some Value.
+            //This ViewBag is availiable in the view.  This is how we pass data from the controller to the view.
+            ViewBag.Manamana = "Some Value";
+
             return View();
         }
 
