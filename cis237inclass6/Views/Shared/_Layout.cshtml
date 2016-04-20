@@ -30,6 +30,7 @@
                     @*Blocks Foo from taskbar if user is not authenticated.*@
                     @if (Request.IsAuthenticated) { 
                     <li>@Html.ActionLink("My Foo Page", "Foo", "Home")</li>
+                    <li>@Html.ActionLink("List Of Cars", "Index", "Cars")</li>
                     }
                 </ul>
                 @Html.Partial("_LoginPartial")
